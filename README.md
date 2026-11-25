@@ -205,3 +205,4 @@ This code is released under the [LFA-Mamba Academic Research License](LICENSE). 
 - If `pointnet2_ops` or `Chamfer3D` import fails, rebuild them with `bash install.sh`.
 - If `mamba_ssm` import fails, make sure `mamba-ssm` is installed in the active environment.
 - If Open3D fails to load `.pcd` files, check that your dataset files are valid point clouds and that the installed Open3D version matches your Python version.
+# LFA-Mamba
