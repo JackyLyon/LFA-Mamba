@@ -1,0 +1,32 @@
+LFA-Mamba Academic Research License
+
+Copyright (c) 2026 Jie Li
+
+Permission is granted to use, copy, modify, and distribute this software and
+its accompanying documentation for non-commercial academic and research
+purposes only, subject to the following conditions:
+
+1. The software may be used only for academic research, education, peer review,
+   and reproduction of published experimental results.
+
+2. Commercial use is not permitted. This includes, but is not limited to, use
+   in commercial products or services, paid consulting, internal commercial
+   research and development, model training for commercial deployment, or any
+   activity intended to generate commercial advantage.
+
+3. Redistribution of the software, modified versions, or derivative works is
+   permitted only for non-commercial academic and research purposes, and this
+   license notice must be included in all copies or substantial portions of the
+   software.
+
+4. Publications, reports, or derivative works that use this software must cite
+   the associated LFA-Mamba paper and acknowledge this repository.
+
+5. The software is provided "as is", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose, and non-infringement. In no event shall
+   the authors or copyright holders be liable for any claim, damages, or other
+   liability arising from the use of the software.
+
+6. Any use outside the scope of this license requires prior written permission
+   from the copyright holder.

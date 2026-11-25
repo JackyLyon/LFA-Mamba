@@ -1,0 +1,17 @@
+# Install a CUDA-matched PyTorch build first if needed:
+# https://pytorch.org/get-started/locally/
+
+torch
+numpy
+tqdm
+easydict
+h5py
+matplotlib
+pandas
+openpyxl
+open3d
+opencv-python
+Pillow
+transforms3d
+plyfile
+mamba-ssm

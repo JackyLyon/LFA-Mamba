@@ -1,0 +1,79 @@
+{
+    "CONST": {
+        "DEVICE": 0,
+        "NUM_WORKERS": 8,
+        "N_INPUT_POINTS": 2048
+    },
+    "DATASET": {
+        "TEST_DATASET": "Bone",
+        "TRAIN_DATASET": "Bone"
+    },
+    "DATASETS": {
+        "COMPLETION3D": {
+            "CATEGORY_FILE_PATH": "./datasets/Completion3D.json",
+            "COMPLETE_POINTS_PATH": "./datasets/Completion3D/%s/gt/%s/%s.h5",
+            "PARTIAL_POINTS_PATH": "./datasets/Completion3D/%s/partial/%s/%s.h5"
+        },
+        "SHAPENET": {
+            "CATEGORY_FILE_PATH": "./datasets/bone/bone.json",
+            "COMPLETE_POINTS_PATH": "./datasets/bone/bone_complete/%s.pcd",
+            "N_POINTS": 2048,
+            "N_RENDERINGS": 8,
+            "PARTIAL_POINTS_PATH": "./datasets/bone/bone_partial/%s/%d.pcd"
+        }
+    },
+    "DIR": {
+        "CHECKPOINTS": "results/Bone/train_bone_Log_2026_05_27_07_33_26/checkpoints",
+        "LOGS": "results/Bone/train_bone_Log_2026_05_27_07_33_26",
+        "OUT_PATH": "results/Bone/train_bone_Log_2026_05_27_07_33_26",
+        "TEST_PATH": "results/Bone"
+    },
+    "NETWORK": {
+        "KP_EXTENTS": [
+            0.1,
+            0.1,
+            0.05,
+            0.025
+        ],
+        "UPSAMPLE_FACTORS": [
+            2,
+            2,
+            1,
+            8
+        ]
+    },
+    "TEST": {
+        "CD_TYPE": "L1",
+        "METRIC_NAME": "ChamferDistance"
+    },
+    "TRAIN": {
+        "ANOMALY_CD_FACTOR": 3.0,
+        "ANOMALY_F_SCORE_CD_FACTOR": 1.5,
+        "ANOMALY_F_SCORE_RATIO": 0.25,
+        "ANOMALY_MIN_EPOCHS": 10,
+        "BATCH_SIZE": 8,
+        "BETAS": [
+            0.9,
+            0.999
+        ],
+        "FSCORE_LOSS_SOFTNESS": 0.002,
+        "FSCORE_LOSS_THRESHOLD": 0.01,
+        "FSCORE_LOSS_WEIGHT": 0.05,
+        "GRAD_CLIP": 0.3,
+        "LEARNING_RATE": 0.0003,
+        "LR_DECAY": 200,
+        "LR_DECAY_STEP": 50,
+        "LR_MILESTONES": [
+            50,
+            100,
+            150,
+            200,
+            250
+        ],
+        "N_EPOCHS": 300,
+        "SAVE_FREQ": 1,
+        "WARMUP_EPOCHS": 10,
+        "WARMUP_STEPS": 200,
+        "WEIGHT_DECAY": 0
+    }
+}

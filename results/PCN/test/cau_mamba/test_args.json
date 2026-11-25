@@ -1,0 +1,14 @@
+{
+    "batch_size": null,
+    "dataset": "pcn",
+    "desc": "Testing TNA-Mamba",
+    "device": null,
+    "epochs": null,
+    "mamba_dim": 256,
+    "model_type": "tna_mamba",
+    "num_workers": 0,
+    "out_path": null,
+    "output": 1,
+    "pretrained": "checkpoints/PCN/ckpt-best.pth",
+    "seed": 1128
+}
